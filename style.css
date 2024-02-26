@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.my-nav {
+    background-color: white;
+}
+
+.my-input {
+    border: none;
+    border-radius: 50px;
+    outline: none;
+    border-left: none;
+    background-color: #f7faf7;
+}
+
+.my-input:hover {
+    border-radius: 50px;
+    background-color: white;
+}
+
+.my-list {
+    border-radius: 50px;
+    height: 10px;
+}
+
+.my-a-talent {
+    width: 100%;
+    margin: auto;
+    background-color: #f7faf7;
+}
+
+.my-a-talent:hover {
+    border-radius: 50px;
+    background-color: white;
+}
+
+.my-list:hover {
+    border-radius: 50px;
+    background-color: #f2f7f2;
+}
+
+.my-div {
+   width: 400px; 
+   background-color: #f7faf7;
+}
+.my-div:hover {
+   background-color: #f2f7f2;
+}
+
+.my-login {
+    width: 100px;
+}
+
+.my-signup {
+    width: 120px;
+    background-color: #14a800;
+    font-size: 20px;
+}
+
+.my-icon {
+    font-size: 20px ;
+    margin: auto;
+}
+
+.my-h1 {
+    font-size: 100px;
+    color: #14a800;
+}
+
+.my-p {
+    font-size: 25px;
+    color: #5e6d55;
+}
+
+.my-strt-btn {
+    background-color: #14a800;
+}
+
+.my-a {
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.my-grid3-a {
+    color: #14a800;
+}
+
+.my-p3 {
+    color: #5e6d55;
+}
+
+.my-card {
+    height: 130px;
+    cursor: pointer;
+    padding-top: 20px;
+    padding-left: 20px;
+    background-color: #f7faf7;
+}
+
+.my-card:hover {
+    background-color: #f2f7f2;
+}
+
+.my-section2 {
+    position: relative;
+}
+
+.my-cont-sec2 {
+    position: absolute;
+    right: 200px;
+    margin-top: 65px;
+}
+
+.my-sign-up-for-free {
+    border-radius: 50px;
+    width: 150px;
+    padding: 10px;
+    border: 2px solid #14a800 ;
+    background-color: #14a800;
+    color: white;
+    font-weight: 400;
+}
+
+.my-learn-how-to-hire {
+    background-color: white;
+    color: #14a800;
+}
+
+.my-learn-how-to-hire:hover {
+    background-color: #f7faf7;
+    cursor: pointer;
+}
+
+.sec4-btn {
+    width: 300px;
+    background-color: #14a800;
+    color: #f2f7f2;
+}
+
+.sec4-btn:hover {
+    color: #14a800;
+    background-color: #f2f7f2;
+}
+
+.sec4-btn p {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.my-sec5-h1 {
+    font-size: 65px;
+    font-weight: bolder;
+}
+
+.my-sec5-div1 {
+    background-color: #f7faf7;
+}
+
+.my-sec5-div2 {
+    background-color: #14a800;
+    color: #f7faf7;
+}
+
+.my-sec6-h1 {
+    font-size: 70px;
+    font-weight: bolder;
+}
+
+.my-sec8-btn {
+    border: 2px solid #14a800;
+    background-color: white;
+    color: #14a800;
+}
+
+.my-sec8-btn:hover {
+    border: 2px solid #14a800;
+    background-color: #f2f7f2;
+    color: #14a800;
+}
+
+.my-sec8 {
+    background-color: #f7faf7;
+}
+
+.my-sec9-h1 {
+    color: #14a800;
+}
+
+.my-sec9-head:hover {
+    color: #14a800;
+    cursor: pointer;
+}
+
+.my-sec9-head {
+    color: #5e6d55;
+}
+
+.my-sec4-btn {
+    height: 150px;
+}
+
+.my-header {
+    position: fixed;
+    z-index: 999;
+}
+
+.my-f-div {
+    border: 1px solid white;
+    border-radius: 50%;
+}
+.my-f-div:hover {
+    background-color: #D3D3D3;
+    cursor: pointer;
+}
+
+.my-f-i {
+    font-size: 20px;
+    padding: 10px;
+}
+
+.my-f-d {
+    display: flex;
+    gap: 1000px;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}

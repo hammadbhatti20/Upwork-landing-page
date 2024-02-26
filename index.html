@@ -1,0 +1,595 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Upwork</title>
+
+    <!-- bootstrap css link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- font-awesome icon link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- my css link -->
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+  <body class="p-0 m-0 border-0 bd-example m-0 border-0">
+    
+   <!-- this is header start -->
+   <header class="  w-100 my-header">
+
+     <!-- bootstrap navbar1 start -->
+     <nav class="navbar navbar-expand-lg bg-light-tertiary text-dark border my-nav  " >
+      <div class="container-fluid bg-light-tertiary text-dark mx-3  ">
+        <a class="navbar-brand" href="#"><img src="images/Upwork_Logo.png" width="100px" alt="logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Find Talent
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item " href="#">Post a job and hire a pro</a></li>
+                    <li><a class="dropdown-item " href="#">Browse and buy projects</a></li>
+                    <li><a class="dropdown-item " href="#">Get advice from an industry expert</a></li>
+                  </ul>
+                </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Find Work
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item " href="#">Ways to earn</a></li>
+                <li><a class="dropdown-item " href="#">Find work for your skills</a></li>
+                <li><a class="dropdown-item " href="#">Win work with ads</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Why Upwork
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item " href="#">Success Stories</a></li>
+                <li><a class="dropdown-item " href="#">How to hire</a></li>
+                <li><a class="dropdown-item " href="#">Reviews</a></li>
+                <li><a class="dropdown-item " href="#">How to find work</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active">Enterprise</a>
+            </li>
+          </ul>
+          <form class="d-flex " role="search">
+            <div class="d-flex border rounded-pill my-div ">
+              <i class="fa-solid fa-magnifying-glass my-icon ps-3   " ></i>
+              <input class="form-control me-2  my-input " type="search" placeholder="Search" aria-label="Search">
+              <ul class="list-unstyled mt-2 my-list ">
+                  <li class="nav-item dropdown pe-3">
+                      <a class="nav-link dropdown-toggle my-a-talent active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Telent
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item " href="#"><i class="fa-regular fa-user"></i>Talent</a></li>
+                        <li><a class="dropdown-item " href="#"><i class="fa-solid fa-laptop"></i>Projects</a></li>
+                        <li><a class="dropdown-item " href="#"><i class="fa-solid fa-briefcase"></i>Jobs</a></li>
+                      </ul>
+                    </li>
+              </ul>
+            </div>
+            <button class="btn my-login " type="submit">Log in</button>
+            <button class="btn btn-outline-success rounded-pill text-light my-signup  " type="submit">Sign up</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+     <!-- bootstrap navbar1 end -->
+
+  <!-- bootstrap navbar2 start-->
+  <nav class="navbar navbar-expand-lg bg-light-tertiary my-nav">
+    <div class="container-fluid">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active ms-2" aria-current="page" href="#">Development&IT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">AI Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Design & Creative</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Sales & Marketing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Admin & Customer Support</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              More
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item " href="#">Writing & Translation</a></li>
+              <li><a class="dropdown-item " href="#">Finance & Accounting</a></li>
+              <li><a class="dropdown-item " href="#">HR & Training</a></li>
+              <li><a class="dropdown-item " href="#">Legal</a></li>
+              <li><a class="dropdown-item " href="#">Engineering & Architecture</a></li>
+              <li><a class="dropdown-item " href="#">See all specialization</a></li>
+            </ul>
+          </li>
+        </ul>
+       
+      </div>
+    </div>
+  </nav>
+  <!-- bootstrap navbar2 end-->
+
+   </header>
+   <!-- this is header end -->
+
+   <br>
+   <br>
+
+   <!-- this is main start-->
+   <main class="my-main pt-5">
+
+     <!-- section 1 hero & button start-->
+     <section class=" my-section">
+      <!-- bootstrap grid -->
+      <div class="container my-cont">
+        <div class="row">
+          <div class="col-6 mt-5">
+            <h1 class=" my-h1">How work <br> should work</h1>
+            <p class=" my-p">Forget the old rules. You can have the best people. <br>
+              Right now. Right here.</p>
+              <button class=" btn btn-success rounded-pill mt-2 fs-3 my-strt-btn"><a class=" text-light my-a p-3 " href="#">Get started</a></button>
+          </div>
+          <div class="col-6 mt-5">
+            <img class="ms-5" src="images/background-img1.webp" width="85%">
+          </div>
+        </div>
+      </div>
+
+      <!-- bootstrap grid 2 -->
+    <div class="container">
+      <h5 class=" fs-4" style="color: #5e6d55;">Trusted by</h5>
+      <div class="row">
+        <div class="col-12 d-flex gap-5">
+          <img src="images/microsoft-log.svg" width="150px">
+          <img src="images/airbnb-logo.svg" width="100px">
+          <img src="images/bissell-logo.svg" width="65px">
+        </div>
+      </div>
+    </div>
+
+      <!-- bootstrap grid 3 -->
+    <div class="container mt-5 ">
+     <h1>Browse talent by category</h1>
+     <p class="my-p3">Looking for work?<a class=" my-grid3-a" href="#">Browse jobs</a></p>
+     <div class="d-flex h gap-3">
+      <div class="col-3 border rounded my-card "><h4>Development & IT</h4>
+        <p><i class="fa-solid fa-star text-success"></i>4.85/5 <span>1853 skills</span></p>
+      </div>
+      <div class="col-3 border rounded my-card"><h4>AI Services</h4>
+        <p><i class="fa-solid fa-star text-success"></i>4.8/5 <span>294 skills</span></p>
+      </div>
+      <div class="col-3 border rounded my-card"><h4>Design & Creative</h4>
+        <p><i class="fa-solid fa-star text-success"></i>4.19/5 <span>968 skills</span></p>
+      </div>
+      <div class="col-3 border rounded my-card"><h4>Sales & Marketing</h4>
+        <p><i class="fa-solid fa-star text-success"></i>4.77/5 <span>392 skills</span></p>
+      </div>
+     </div>
+    </div>
+
+      <!-- bootstrap grid 3 -->
+    <div class="container mt-5 ">
+     <div class="d-flex gap-3">
+      <div class="col-3 border rounded my-card "><h4>Writing & Translation</h4>
+        <p><i class="fa-solid fa-star text-success"></i>4.85/5 <span>1853 skills</span></p>
+      </div>
+      <div class="col-3 border rounded my-card"><h4>Admin & Customer <br>Support</h4>
+        <p><i class="fa-solid fa-star text-success"></i>4.8/5 <span>294 skills</span></p>
+      </div>
+      <div class="col-3 border rounded my-card"><h4>Finance & Accounting</h4>
+        <p><i class="fa-solid fa-star text-success"></i>4.19/5 <span>968 skills</span></p>
+      </div>
+      <div class="col-3 border rounded my-card"><h4>Engineering & <br>Architecture</h4>
+        <p><i class="fa-solid fa-star text-success"></i>4.77/5 <span>392 skills</span></p>
+      </div>
+     </div>
+    </div>
+    </section>
+     <!-- section 1 hero & button end-->
+
+     <!-- section 2 promotion start-->
+     <section class="my-section2">
+      <div class=" my-cont-sec2 ">
+        <h1>Up your work game, it’s easy</h1>
+        <h5>No cost to join</h5>
+        <p>Register and browse professionals, explore projects, or even book a consultation.</p><br>
+        <h5>Post a job and hire top talent</h5>
+        <p>Finding talent doesn’t have to be a chore. Post a job or we can search for you!</p><br>
+        <h5>Work with the best—without breaking the bank</h5>
+        <p>Upwork makes it affordable to up your work and take advantage of low transaction rates.</p>
+        <div class="d-flex gap-3">
+          <button class=" my-sign-up-for-free">Sign up for free</button>
+          <button class=" my-sign-up-for-free my-learn-how-to-hire">Learn how to hire</button>
+        </div>
+      </div>
+     </section>
+     <!-- section 2 promotion end-->
+
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+
+     <!-- section 3 ad grid start-->
+     <section>
+      <div class="container mt-5 bg-success rounded text-light">
+        <div class="row">
+          <div class="col-6 ps-3 py-3">
+            <h6 class="fs-3">Enterprise Suite</h6><br>
+            <h1 class="fs-1">This is how <span class=" text-success-emphasis"> <br>good companies <br>find good company .</span></h1>
+            <p class="fs-5">Access the top 1% of talent on Upwork, and a full suite of hybrid workforce <br>management tools. This is how innovation works now.</p>
+            <p class="fs-5"><span></span>Access expert talent to fill your skill gaps</p>
+            <p class="fs-5"><span></span>Control your workflow: hire, classify and pay your talent</p>
+            <p class="fs-5"><span></span>Partner with Upwork for end-to-end support</p>
+            <button class="btn btn-rounded- rounded-pill bg-light text-success ">Learn more</button>
+          </div>
+          <div class="col-6 p-0 overflow-hidden rounded "><img src="images/back-ground img 2.webp" width="105%" height="105%" alt=""></div>
+        </div>
+      </div>
+     </section>
+     <!-- section 3 ad grid end-->
+
+     <br>
+     <br>
+     <br>
+
+     <!-- section 4 client finding d-flex start-->
+     <section class="my-sec4">
+      <div class="container bg-warning text-light border rounded mt-5 p-3">
+        <h5 class="fs-4">For clients</h5>
+        <br>
+        <br>
+        <br>
+        <h1 class="fs-1 sec4-h1">Find talent <br> your way</h1>
+        <p class="fs-5">Work with the largest network of independent</p>
+        <p class="fs-5">professionals and get things done—from quick</p>
+        <p class="fs-5">turnarounds to big transformations.</p>
+        <br>
+        <div class="row">
+          <div class="col-4 "><button class="btn btn-rounded sec4-btn my-sec4-btn"><p>Browse and <br>buy projects <br>Project Catalog</p></button></div>
+          <div class="col-4"><button class="btn btn-rounded sec4-btn"><p>Post a job <br>and hire a pro <br><br>Talent Marketplace</p></button></div>
+          <div class="col-4"><button class="btn btn-rounded sec4-btn"><p>Get advice from an <br> industry expert <br><br>Consultant </p></button></div>
+        </div>
+      </div>
+     </section>
+     <!-- section 4 client finding d-flex end-->
+
+     <br>
+     <br>
+     <br>
+     
+     <!-- section 5 bussines tips start-->
+     <section class="my-sec5 mt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-6 my-sec5-div1 rounded w-50">
+            <h1 class="my-sec5-h1 mt-5 ps-4">Why businesses <br>turn to Upwork</h1>
+            <br>
+            <h2 class="fs-1 ps-4">Proof of quality</h2>
+            <p class="fs-5 ps-4">Check any pro’s work samples, client reviews, and identity <br>verification.</p>
+            <h2 class="fs-1 ps-4">No cost until you hire</h2>
+            <p class="fs-5 ps-4">Interview potential fits for your job, negotiate rates, and only <br>pay for work you approve.</p>
+            <h2 class="fs-1 ps-4">Safe and secure</h2>
+            <p class="fs-5 ps-4">Focus on your work knowing we help protect your data and <br> privacy. We’re here with 24/7 support if you need it.</p>
+          </div>
+          <div class="col-6 rounded my-sec5-div2">
+            <h2 class="fs-1 mt-5 ps-4" >We’re <br>
+              the world’s work <br>
+              marketplace</h2>
+            <h2 class="fs-1 ps-4">4.9/5</h2>
+            <p class="fs-5 ps-4">Clients rate professionals on Upwork</p>
+            <h2 class="ps-4">Award winner</h2>
+            <p class="ps-4">G2’s 2021 Best Software Awards</p>
+          </div>
+        </div>
+      </div>
+     </section>
+     <!-- section 5 bussines tips end-->
+
+     <!-- section 6 opportunities tips start-->
+     <section class="mt-5">
+      <div class="container bg-primary rounded text-light">
+        <div class="row">
+          <div class="col-6 rounded overflow-hidden  ">
+            <div class=" rounded p-0  ">
+              <img  src="images/back-ground img 4.webp" width="100%" height="100%" alt="">
+            </div>
+          </div>
+          <div class="col-6  bg-primary text-light rounded">
+            <h1 class="mt-2 p-4 fs-1">Find great <br>
+               work</h1>
+              <p class="p-4 fs-5">Meet clients you’re excited to work with and take <br>
+                your career or business to new heights.</p>
+              <br>
+              <br>
+              <br>
+              <br>
+              <hr>
+              <div class="d-flex">
+                <p class="p-4 fs-5">Find opportunities for <br> every stage of your <br> freelance career</p>
+                <p class="p-4 fs-5">Control when, where, <br> and how you work</p>
+                <p class="p-4 fs-5">Explore different <br> ways to earn</p>
+              </div>
+              <br>
+              <button class="btn btn-rounded rounded-pill bg-light text-primary ms-4">Find opportunities</button>
+          </div>
+        </div>
+      </div>
+     </section>
+     <!-- section 6 opportunities tips end-->
+
+     <!-- section 7 heading start-->
+     <section class="mt-5">
+      <div class="container">
+        <h1 class="my-sec6-h1">Trusted by leading<br>
+          brands and startups</h1>
+      </div>
+     </section>
+     <!-- section 7 heading end-->
+
+     <!-- section 8 carousel start -->
+     <section>
+      <div class="container">
+        <div id="carouselExample" class="carousel slide ">
+          <div class="carousel-inner">
+            <div class="carousel-item bg-success active rounded p-4">
+              <img src="images/nasdaq-logo.svg"  class="d-block w-25" alt="...">
+              <p class="text-light fs-3">“Upwork enables us to differentiate ourselves <br> from our competitors and produce content at <br> a higher caliber.”</p>
+              <p class="fs-5 text-light">Josh Machiz, Chief Digital Officer</p>
+              <p class="fs-5 text-light">Results</p>
+              <hr class="text-light" >
+              <div class="d-flex gap-5">
+                <div>
+                  <p class="fs-3 text-light">Emmy Winning</p>
+                  <p class="fs-5 text-light">Facebook Watch <br> program</p>
+                </div>
+                <div>
+                  <p class="fs-3 text-light">Millions</p>
+                  <p class="fs-5 text-light">of impressions generated <br> per client per IPO
+                  </p>
+                </div>
+              </div>
+
+            </div>
+            <div class="carousel-item bg-danger rounded p-4">
+              <img src="images/microsoft-log2.svg" class="d-block w-25" alt="...">
+              <p class="text-light fs-3">“One of the advantages of utilizing <br> freelancers is finding talent with different <br> skills quickly as our needs change.”</p>
+              <p class="fs-5 text-light">Carol Taylor, Director of Content Experience</p>
+              <p class="fs-5 text-light">Results</p>
+              <hr class="text-light" >
+              <div class="d-flex gap-5">
+                <div>
+                  <p class="fs-3 text-light">50% Faster</p>
+                  <p class="fs-5 text-light">launch of projects</p>
+                </div>
+                <div>
+                  <p class="fs-3 text-light">10,000</p>
+                  <p class="fs-5 text-light">projects completed</p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item bg-dark rounded p-5">
+              <p class="text-light fs-3">And many more</p>
+              <img src="images/nasdaq-mini-logo.svg" class="d-block mt-5 " alt="...">
+              <img src="images/automattic-mini-logo.svg" class="d-block mt-5 " alt="...">
+              <img src="images/bissell-light-mini-logo.svg" class="d-block mt-5 " alt="...">
+              <img src="images/coty-light-logo.svg" class="d-block mt-5 " alt="...">
+              <img src="images/rancher-v2-light-mini-logo.svg" class="d-block mt-5 " alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+     </section>
+     <!-- section 8 carousel end -->
+
+     <!-- section 9 donation ad start -->
+     <section>
+      <div class="container border rounded mt-5 p-4 my-sec8">
+        <h1>We support Ukraine</h1>
+        <p>We are taking action to help our freelancers, our clients, and the people of Ukraine—and so can you.</p>
+        <br>
+        <button class="btn rounded-pill my-sec8-btn ">Learn more</button>
+      </div>
+     </section>
+     <!-- section 9 donation ad end -->
+
+     <!-- section 10 skills details start -->
+     <section class="mt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-4">
+            <h1 class="my-sec9-h1">Top skills</h1>
+            <h1 class="my-sec9-head">Top skills</h1>
+            <h1 class="my-sec9-head">Top skills in US</h1>
+            <h1 class="my-sec9-head">Project CatalogTM</h1>
+          </div>
+          <div class="col-4">
+            <h3 class="my-sec9-head">Generative AI Specialists</h3>
+            <h3 class="my-sec9-head">Data Entry Specialists</h3>
+            <h3 class="my-sec9-head">Video Editors</h3>
+            <h3 class="my-sec9-head">Data Analyst</h3>
+            <h3 class="my-sec9-head">Shopify Developer</h3>
+            <h3 class="my-sec9-head">Ruby on Rails Developer</h3>
+            <h3 class="my-sec9-head">Android Developer</h3>
+            <h3 class="my-sec9-head">Bookkeeper</h3>
+            <h3 class="my-sec9-head">Content Writer</h3>
+            <h3 class="my-sec9-head">Copywriter</h3>
+            <h3 class="my-sec9-head">Data Scientist</h3>
+            <h3 class="my-sec9-head">Front-End Developer</h3>
+            <h3 class="my-sec9-head">Game Developer</h3>
+            <h3 class="my-sec9-head">Graphic Designer</h3>
+            <h3 class="my-sec9-head">iOS Developer</h3>
+            <h3 class="my-sec9-head">Java Developer</h3>
+          </div>
+          <div class="col-4">
+            <h3 class="my-sec9-head">JavaScript Developer</h3>
+            <h3 class="my-sec9-head">Logo Designer</h3>
+            <h3 class="my-sec9-head">Mobile App Developer</h3>
+            <h3 class="my-sec9-head">PHP Developer</h3>
+            <h3 class="my-sec9-head">Python Developer</h3>
+            <h3 class="my-sec9-head">Resume Writer</h3>
+            <h3 class="my-sec9-head">SEO Expert</h3>
+            <h3 class="my-sec9-head">Social Media Manager</h3>
+            <h3 class="my-sec9-head">Software Developer</h3>
+            <h3 class="my-sec9-head">Software Engineer</h3>
+            <h3 class="my-sec9-head">Technical Writer</h3>
+            <h3 class="my-sec9-head">UI Designer</h3>
+            <h3 class="my-sec9-head">UX Designer</h3>
+            <h3 class="my-sec9-head">Virtual Assistant</h3>
+            <h3 class="my-sec9-head">Web Designer</h3>
+            <h3 class="my-sec9-head">Wordpress Developer</h3>
+          </div>
+        </div>
+      </div>
+     </section>
+     <!-- section 10 skills details end -->
+
+   </main>
+   <!-- this is main end-->
+
+   <!-- this is footer start-->
+   <footer class="bg-dark mt-5 rounded">
+    <div class="container-fluid bg-dark text-light ">
+      
+      <!-- footer more help start -->
+      <div class="row">
+        <div class="col-3 ">
+          <h6>For Clients</h6>
+          <br>
+          <p>How to Hire</p>
+          <p>Talent Marketplace</p>
+          <p>Project Catalog</p>
+          <p>Hire an Agency</p>
+          <p>Enterprise</p>
+          <p>Any Hire</p>
+          <p>Contact-to-Hire</p>
+          <p>Direct Contracts</p>
+          <p>Hire Worldwide</p>
+          <p>Hire in the USA</p>
+        </div>
+        <div class="col-3">
+          <h6>For Talent</h6>
+          <br>
+          <p>How to Find Work</p>
+          <p>Direct Contracts</p>
+          <p>Find Freelance Jobs Worldwide</p>
+          <p>Find Freelance Jobs in the USA</p>
+        </div>
+        <div class="col-3">
+          <h6>Resources</h6>
+          <br>
+          <p>Help & Support</p>
+          <p>Success Stories</p>
+          <p>Upwork Reviews</p>
+          <p>Resources</p>
+          <p>Blog</p>
+          <p>Community</p>
+          <p>Affiliate Program</p>
+          <p>Free Bussiness tools</p>
+        </div>
+        <div class="col-3">
+          <h6>Company</h6>
+          <br>
+          <p>About Us</p>
+          <p>Leadership</p>
+          <p>Investor Relations</p>
+          <p>Careers</p>
+          <p>Our Impact</p>
+          <p>Press</p>
+          <p>Contact Us</p>
+          <p>Trust,Safety & Security</p>
+          <p>Modern Slavery Statement</p>
+        </div>
+      </div>
+      <!-- footer more help end -->
+
+      <br>
+      <br>
+      <br>
+
+      <!-- footer follow icon start -->
+      <div class="d-flex  my-f-d">
+        <div class="d-flex gap-1">
+          <p><b>Follow Us</b></p>
+        <div class=" my-f-div"><i class="fa-brands fa-facebook my-f-i"></i></div>
+        <div class=" my-f-div"><i class="fa-brands fa-linkedin my-f-i"></i></div>
+        <div class=" my-f-div"><i class="fa-brands fa-twitter my-f-i"></i></div>
+        <div class=" my-f-div"><i class="fa-brands fa-youtube my-f-i"></i></div>
+        <div class=" my-f-div"><i class="fa-brands fa-instagram my-f-i"></i></div>
+        </div>
+        <div class="d-flex gap-1">
+          <p><b>Mobile app</b></p>
+        <div class=" my-f-div"><i class="fa-brands fa-apple my-f-i"></i></div>
+        <div class=" my-f-div"><i class="fa-brands fa-android my-f-i"></i></div>
+        </div>
+      </div>
+      <!-- footer follow icon end -->
+
+      <hr>
+
+      <!-- footer copy right start -->
+      <div class="d-flex gap-3">
+        <div class="d-flex gap-5">
+        <p>© 2015 - 2023 Upwork® Global Inc.</p>
+        <p>Terms of Service</p>
+        </div>
+        <p>Privacy Policy</p>
+        <p>CA Notice at Collection</p>
+        <p>Cookie Settings</p>
+        <p>Accessibility</p>
+      </div>
+      <!-- footer copy right end -->
+
+    </div>
+   </footer>
+   <!-- this is footer end-->
+
+    <!-- bootstrap js link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
